@@ -58,7 +58,7 @@ main h1 {
 /* Estilos de jardinbotanico */
 #jardinbotanico{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .articulo {
@@ -176,4 +176,5 @@ address {
 	background-color: black;
 	color: white;
 }
+
 
