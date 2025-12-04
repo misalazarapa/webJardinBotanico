@@ -6,7 +6,7 @@
     <xsl:template match="/jardinBotanico">
         <html>
             <head>
-                <link href="../css/estilo_actv.css" rel="stylesheet" type="text/css" />
+                <link href="../css/estilo.css" rel="stylesheet" type="text/css" />
                 <meta charset="utf-8"/>
                 <meta name="description" content="Página principal" />
                 <title>titulo de la web</title>
@@ -77,4 +77,5 @@
             <xsl:value-of select="nomresponsable"/> - <xsl:value-of select="email"/>
         </li>
     </xsl:template>
+
 </xsl:stylesheet>    
